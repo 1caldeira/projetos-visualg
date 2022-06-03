@@ -1,0 +1,34 @@
+Algoritmo "dentro_fora"
+
+
+Var
+
+      i, n, x, cont1, cont2 : inteiro
+
+Inicio
+
+        escreva("Quantos numeros voce vai digitar? ")
+        leia(n)
+        
+        para i de 1 ate n faca
+        
+          escreva("Digite um numero: ")
+          leia(x)
+        
+            se (x >= 10) e (x <= 20) entao
+        
+            cont1 <- cont1 + 1
+        
+            senao
+        
+            cont2 <- cont2 + 1
+        
+            fimse
+            
+        fimpara
+        
+        escreval(cont1, " DENTRO")
+        escreval(cont2, " FORA")
+
+
+Fimalgoritmo
